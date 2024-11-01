@@ -1,0 +1,4 @@
+USE stuslu;
+SELECT * 
+FROM stud
+WHERE datRodStud = DATE_ADD(CURDATE(), INTERVAL -25 YEAR);
