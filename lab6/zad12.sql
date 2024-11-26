@@ -1,0 +1,5 @@
+USE stuslu;
+SELECT MONTH(datRodStud) AS mjesec , COUNT(*)
+FROM stud
+GROUP BY 1
+ORDER BY COUNT(*) DESC
