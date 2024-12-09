@@ -1,0 +1,1 @@
+UPDATE predT SET nazPred = CONCAT(TRIM(kratPred),'-',TRIM(nazPred))
